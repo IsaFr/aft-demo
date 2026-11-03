@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to ApexLibra AFL Callout Framework Apex classes.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>AFL Callout Framework</label>
+    <classAccesses>
+        <apexClass>Callout</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CalloutConditions</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CalloutHandlers</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CalloutHandlersList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CalloutResponseException</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+</PermissionSet>

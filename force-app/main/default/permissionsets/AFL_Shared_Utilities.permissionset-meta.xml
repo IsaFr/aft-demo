@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to ApexLibra AFL Shared Utilities Apex classes.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>AFL Shared Utilities</label>
+    <classAccesses>
+        <apexClass>Condition</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Conditions</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Runtime</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+</PermissionSet>
