@@ -1,0 +1,17 @@
+<template>
+    <template if:true={records}>
+        <div class="table-container">
+            <lightning-datatable
+                key-field="id"
+                data={records}
+                columns={columns}
+                enable-infinite-loading
+                onloadmore={loadMoreData}
+            >
+            </lightning-datatable>
+        </div>
+    </template>
+    <template if:true={error}>
+        <c-vf-lwc-error-panel errors={error}></c-vf-lwc-error-panel>
+    </template>
+</template>

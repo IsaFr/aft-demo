@@ -1,0 +1,21 @@
+<template>
+    <template if:true={records}>
+        <div class="table-container">
+            <lightning-datatable
+                key-field="id"
+                data={records}
+                columns={columns}
+            >
+            </lightning-datatable>
+        </div>
+        <c-vf-lwc-paginator
+            onprevious={handlePrevious}
+            onnext={handleNext}
+            previous-button-disabled={previousButtonDisabled}
+            next-button-disabled={nextButtonDisabled}
+        ></c-vf-lwc-paginator>
+    </template>
+    <template if:true={error}>
+        <c-vf-lwc-error-panel errors={error}></c-vf-lwc-error-panel>
+    </template>
+</template>
