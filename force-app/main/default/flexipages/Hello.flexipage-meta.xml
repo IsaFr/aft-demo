@@ -52,7 +52,7 @@
         <name>region4</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Hello</masterLabel>
+    <masterLabel>Hello QA Welcome</masterLabel>
     <template>
         <name>flexipage:appHomeTemplateHeaderThreeColumns</name>
     </template>
